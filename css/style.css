@@ -217,8 +217,8 @@ section { padding: 80px 0; }
   order: 999;
 }
 .hamburger span {
-  display: block; height: 2px;
-  background: var(--primary);
+  display: block; height: 3px; width: 22px;
+  background: #FF8C00;
   border-radius: 2px;
   transition: var(--transition);
 }
