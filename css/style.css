@@ -167,7 +167,7 @@ section { padding: 80px 0; }
 }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-en { font-size: 1.1rem; font-weight: 700; color: var(--primary); letter-spacing: 0.05em; }
-.logo-ja { font-size: 1.74rem; font-weight: 700; color: var(--text-light); letter-spacing: 0.04em; }
+.logo-ja { font-size: 1.74rem; font-weight: 700; color: var(--text-light); letter-spacing: 0.04em; max-width: 300px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Nav */
 .site-nav { display: flex; align-items: center; gap: 1px; }
@@ -213,6 +213,8 @@ section { padding: 80px 0; }
   gap: 6px; padding: 4px;
   background: transparent;
   border: none;
+  flex-shrink: 0;
+  order: 999;
 }
 .hamburger span {
   display: block; height: 2px;
@@ -857,7 +859,7 @@ section { padding: 80px 0; }
   section { padding: 60px 0; }
   .site-nav, .header-right { display: none; }
   .hamburger { display: flex; }
-  .logo-ja { font-size: 1.2rem; }
+  .logo-ja { font-size: 1.2rem; max-width: 200px; }
   .hero h1 { font-size: 1.75rem; }
   .hero-btns { flex-direction: column; align-items: center; }
   .about-preview .inner { grid-template-columns: 1fr; }
@@ -879,7 +881,7 @@ section { padding: 80px 0; }
 @media (max-width: 480px) {
   .services-grid { grid-template-columns: 1fr; }
   .process-steps { grid-template-columns: 1fr; }
-  .logo-ja { font-size: 0.85rem; }
+  .logo-ja { font-size: 0.85rem; max-width: 150px; }
 }
 
 /* Q&A Accordion */
