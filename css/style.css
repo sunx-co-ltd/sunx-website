@@ -211,6 +211,8 @@ section { padding: 80px 0; }
   width: 40px; height: 40px;
   cursor: pointer;
   gap: 6px; padding: 4px;
+  background: transparent;
+  border: none;
 }
 .hamburger span {
   display: block; height: 2px;
