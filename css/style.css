@@ -167,7 +167,7 @@ section { padding: 80px 0; }
 }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
 .logo-en { font-size: 1.1rem; font-weight: 700; color: var(--primary); letter-spacing: 0.05em; }
-.logo-ja { font-size: 0.58rem; color: var(--text-light); letter-spacing: 0.04em; }
+.logo-ja { font-size: 1.74rem; font-weight: 700; color: var(--text-light); letter-spacing: 0.04em; }
 
 /* Nav */
 .site-nav { display: flex; align-items: center; gap: 1px; }
