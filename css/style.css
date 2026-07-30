@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5 { line-height: 1.4; font-weight: 700; }
 
 .section-title {
   font-size: 2rem;
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 0.5rem;
 }
 .section-title span { color: var(--primary); }
@@ -70,6 +70,8 @@ h1,h2,h3,h4,h5 { line-height: 1.4; font-weight: 700; }
   background: var(--gradient);
   border-radius: 2px;
   margin: 0.8rem auto 0.5rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .section-subtitle {
   text-align: center;
