@@ -303,6 +303,8 @@ section { padding: 80px 0; }
   line-height: 1.55;
   margin-bottom: 1.4rem;
   text-shadow: 0 2px 14px rgba(0,0,0,0.2);
+  text-align: center;
+  word-wrap: break-word;
 }
 .hero-sub {
   font-size: 1.05rem; line-height: 1.9;
