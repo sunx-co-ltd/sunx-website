@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5 { line-height: 1.4; font-weight: 700; }
 
 .section-title {
   font-size: 2rem;
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 0.5rem;
 }
 .section-title span { color: var(--primary); }
@@ -70,6 +70,8 @@ h1,h2,h3,h4,h5 { line-height: 1.4; font-weight: 700; }
   background: var(--gradient);
   border-radius: 2px;
   margin: 0.8rem auto 0.5rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .section-subtitle {
   text-align: center;
@@ -303,6 +305,8 @@ section { padding: 80px 0; }
   line-height: 1.55;
   margin-bottom: 1.4rem;
   text-shadow: 0 2px 14px rgba(0,0,0,0.2);
+  text-align: center;
+  word-wrap: break-word;
 }
 .hero-sub {
   font-size: 1.05rem; line-height: 1.9;
@@ -462,10 +466,9 @@ section { padding: 80px 0; }
    About Page
    ===================== */
 .msg-grid {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 56px;
-  align-items: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .msg-photo { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
 .msg-photo img { width: 100%; height: 320px; object-fit: cover; }
@@ -867,6 +870,7 @@ section { padding: 80px 0; }
   .hamburger { display: flex; }
   .logo-ja { font-size: 0.6rem; max-width: 200px; }
   .hero h1 { font-size: 1.75rem; }
+  .hide-mobile { display: none !important; }
   .hero-btns { flex-direction: column; align-items: center; }
   .about-preview .inner { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: repeat(2,1fr); }
@@ -883,6 +887,10 @@ section { padding: 80px 0; }
   .footer-inner { grid-template-columns: 1fr; }
   .section-title { font-size: 1.6rem; }
   .page-hero h1 { font-size: 1.65rem; }
+  table { display: block; width: 100%; }
+  table tr { display: block; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,140,0,0.12); }
+  table th { display: block; font-weight: 700; margin-bottom: 0.8rem; white-space: normal; width: 100% !important; padding: 0 !important; font-size: 0.95rem; }
+  table td { display: block; width: 100% !important; padding: 0 !important; border-bottom: none !important; text-align: left; }
 }
 @media (max-width: 480px) {
   .services-grid { grid-template-columns: 1fr; }
