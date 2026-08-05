@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">日常生活ケア</title>
+  <desc id="desc">家の中で暮らす人を表すシンボルなアイコングラフ</desc>
+  <defs><linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF8A00"/><stop offset="1" stop-color="#FFB800"/></linearGradient></defs>
+  <circle cx="256" cy="256" r="208" fill="url(#orange)"/>
+  <path d="M111 244 256 121l145 123v151H111Z" fill="#FFF7E5"/>
+  <circle cx="256" cy="252" r="35" fill="#FF9C06"/>
+  <path d="M194 361c9-52 31-77 62-77s53 25 62 77Z" fill="#FF9C06"/>
+</svg>
