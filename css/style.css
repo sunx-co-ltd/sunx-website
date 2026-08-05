@@ -425,10 +425,10 @@ section { padding: 80px 0; }
   background: var(--gradient);
   color: var(--white);
   text-align: center;
-  padding: 80px 24px;
+  padding: 60px 24px;
 }
-.recruit-banner h2 { font-size: 2rem; margin-bottom: 0.7rem; }
-.recruit-banner p { font-size: 1rem; opacity: 0.92; margin-bottom: 2rem; }
+.recruit-banner h2 { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 0.7rem; line-height: 1.4; }
+.recruit-banner p { font-size: clamp(0.9rem, 2.5vw, 1rem); opacity: 0.92; margin-bottom: 2rem; line-height: 1.6; }
 
 /* =====================
    Contact CTA
@@ -873,14 +873,14 @@ section { padding: 80px 0; }
   .hide-mobile { display: none !important; }
   .hero-btns { flex-direction: column; align-items: center; }
   .about-preview .inner { grid-template-columns: 1fr; }
-  .services-grid { grid-template-columns: repeat(2,1fr); }
+  .services-grid { grid-template-columns: 1fr !important; }
   .staff-grid { grid-template-columns: 1fr; }
   .staff-full-grid { grid-template-columns: 1fr; }
   .staff-full-card { flex-direction: column; align-items: center; text-align: center; }
   .msg-grid { grid-template-columns: 1fr; }
-  .philosophy-grid { grid-template-columns: 1fr; }
+  .philosophy-grid { grid-template-columns: 1fr !important; }
   .mvv-grid { grid-template-columns: 1fr; }
-  .reasons-grid { grid-template-columns: 1fr; }
+  .reasons-grid { grid-template-columns: 1fr !important; }
   .svc-detail-grid { grid-template-columns: 1fr; }
   .timeline-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
