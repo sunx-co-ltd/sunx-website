@@ -885,6 +885,7 @@ section { padding: 80px 0; }
   .timeline-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; }
+  div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
   .section-title { font-size: 1.6rem; }
   .page-hero h1 { font-size: 1.65rem; }
   table { display: block; width: 100%; }
