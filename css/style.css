@@ -79,7 +79,10 @@ h1,h2,h3,h4,h5 { line-height: 1.4; font-weight: 700; }
   text-align: center;
   color: var(--text-light);
   margin-bottom: 3rem;
-  font-size: 0.92rem;
+  font-size: clamp(0.75rem, 2.2vw, 0.92rem);
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 }
 
 /* =====================
